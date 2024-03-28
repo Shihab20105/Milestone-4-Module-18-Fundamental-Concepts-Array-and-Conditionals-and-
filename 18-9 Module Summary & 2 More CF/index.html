@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Summary</title>
+</head>
+<body>
+    <h1>Module Summary And Two More Comparisons</h1>
+    <h5>var destinations = ['sylhet', 'coxsbazar', 'nepal', 'bali', 'thailand'];</h5>
+<br>
+<h5>// console.log(destinations[2]);</h5>
+<h5>destinations[2] = 'singapore';</h5>
+<h5>var index = destinations.indexOf('bali');</h5>
+
+<br>
+<h5>destinations.push('bhutan');</h5>
+<h5>destinations.pop();</h5>
+
+<br>
+<h5>// Conditionals </h5>
+<h5>// <, >, ==, !=, <=, >=</h5>
+<h5>// &&, ||</h5>
+<h5>if (destinations[1] === 'sylhet'){</h5>
+
+<h5>}</h5>
+<h5>else if (destinations[2] === 'bali'){</h5>
+
+<h5>}</h5>
+<h5>else if (destinations.length !== 3){</h5>
+
+<h5>}</h5>
+<h5>else{</h5>
+
+<h5>}</h5>
+
+//* ----------------------------------------------------------------------------------------------------------------------- *//
+<h1>//* Practice Problem 1 *//</h1>
+<h2>// You are given an array:</h2>
+<h2>// var fruits = ['Apple', 'Banana', 'Orange'];</h2>
+<h2>// (a) Find the index of 'Banana' and replace 'Banana' with 'Mango'.</h2>
+<h2>// (b) Remove 'Orange' and add 'Watermelon'.</h2>
+
+<br>
+<h5>// var fruits = ['Apple', 'Banana', 'Orange'];</h5>
+<h5>// index = fruits.indexOf('Banana');</h5>
+<h5>// console.log(index);</h5>
+<h5>// Output: 1</h5>
+<h5>// if(index !== -1){</h5>
+    <h5>// fruits[index] = 'Mango';</h5>
+    <h5>// console.log(fruits);</h5>
+<h5>// }</h5>
+<h5>// Output: [ 'Apple', 'Mango', 'Orange' ]</h5>
+
+<br>
+<h5>var fruits = ['Apple', 'Banana', 'Orange'];</h5>
+<h5>fruits.pop();</h5>
+<h5>fruits.push('Watermelon');</h5>
+<h5>// console.log(fruits);</h5>
+<h5>// Output:[ 'Apple', 'Banana' ]</h5>
+<h5>console.log(fruits);</h5>
+<h5>// Output:[ 'Apple', 'Banana', 'Watermelon' ]</h5>
+
+//* ------------------------------------------------------------------------------------------------------------------- *//
+<h1>// * Practice Problem 2 *//</h1>
+<h2>// You and your friends Tom, Jane, Peter and John got their final exam results. Your total score is 85, Tom's total score is 66, Jane's total score is 95, Peter's total score is 56 and John's total score 40. The grading chart is </h2>
+        <h2>// 80 or above A grade</h2>
+        <h2>// 60 or above B grade</h2>
+        <h2>// 50 or above C grade</h2>
+        <h2>// 40 or above D grade</h2>
+        <h2>// 39 or less => F grade</h2>
+<h2>// Write a program to find you and your friends grades using if-else.</h2>
+
+<br>
+<h5>var totalScoreMyself = 85;</h5>
+<h5>var totalScoreTom = 66;</h5>
+<h5>var totalScoreJane = 95;</h5>
+<h5>var totalScorePeter = 56;</h5>
+<h5>var totalScoreJohn = 40;</h5>
+
+<br>
+<h2>// Calculating My Grade</h2>
+
+<h5>if(totalScoreMyself >= 80){</h5>
+        <h5>console.log('I have got A grade');</h5>
+<h5>}</h5> 
+<h5>else if (totalScoreMyself >= 60){</h5>
+        <h5>console.log('I have got B grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreMyself >= 50){</h5>
+        <h5>console.log('I have got C grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreMyself >= 40){</h5>
+        <h5>console.log('I have got D grade');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+        <h5>console.log('I have got F grade');</h5>
+<h5>}</h5>
+<h5>// Output: I have got A grade</h5>
+
+<h5>// Calculating Tom's grade</h5>
+
+<h5>if (totalScoreTom >= 80){</h5>
+        <h5>console.log('Tom has got A grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreTom >= 60){</h5>
+        <h5>console.log('Tom has got B grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreTom >= 50){</h5>
+        <h5>console.log('Tom has got C grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreTom >= 40){</h5>
+        <h5>console.log('Tom has got D grade');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+        <h5>console.log('Tom has got F grade');</h5>
+<h5>}</h5>
+<h5>// Output: Tom has got B grade</h5>
+
+<br>
+<h2>// Calculating Jane's grade</h2>
+
+<h5>if (totalScoreJane >= 80){</h5>
+        <h5>console.log('Jane has got A grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreJane >= 60){</h5>
+        <h5>console.log('Jane has got B grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreJane >= 50){</h5>
+        <h5>console.log('Jane has got C grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreJane >= 40){</h5>
+        <h5>console.log('Jane has got D grade');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+        <h5>console.log('Jane has got F grade');</h5>
+<h5>}</h5>
+<h5>// Output: Jane has got A grade</h5>
+
+<br>
+<h2>// Calculating Peter's grade</h2>
+
+<h5>if (totalScorePeter >= 80){</h5>
+        <h5>console.log('Peter has got A grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScorePeter >= 60){</h5>
+        <h5>console.log('Peter has got B grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScorePeter >= 50){</h5>
+        <h5>console.log('Peter has got C grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScorePeter >= 40){</h5>
+        <h5>console.log('Peter has got D garde');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+        <h5>console.log('Peter has got F grade');</h5>
+<h5>}</h5>
+<h5>// Output: Peter has got C grade</h5>
+
+<br>
+<h2>// Calculating John's grade</h2>
+
+<h5>if (totalScoreJohn >= 80){</h5>
+        <h5>console.log('John has got A grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreJohn >= 60){</h5>
+        <h5>console.log('John has got B grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreJohn >= 50){</h5>
+        <h5>console.log('John has got C grade');</h5>
+<h5>}</h5>
+<h5>else if (totalScoreJohn >= 40){</h5>
+        <h5>console.log('John has got D grade');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+        <h5>console.log('John has got F grade');</h5>
+<h5>}</h5>
+<h5>// Output: John has got D grade</h5>
+
+//* -------------------------------------------------------------------------------------------------------------------- *//
+<h1>//* Practice Problem 3 *//</h1>
+
+<h2>//  You are given three numbers 13, 79, and 45. Write a program that will print the largest number using if-else.</h2>
+
+<br>
+<h2>// Using Multi-stage 'if-else' Conditional: else...else if...else</h2>
+<h5>var num1 = 13;</h5>
+<h5>var num2 = 79;</h5>
+<h5>var num3 = 45;</h5>
+
+<br>
+<h5>if (num1 > num2 && num1 > num3){</h5>
+    <h5>console.log('The largest number is num1');</h5>
+<h5>}</h5>
+<h5>else if (num2 > num3){</h5>
+    <h5>console.log('The largest number is num2');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+    <h5>console.log('The largest number is num3');</h5>
+<h5>}</h5>
+<h5>// Output: The largest number is num2</h5>
+
+<br>
+<h5>if (num1 > num2 && num1 > num3){</h5>
+    <h5>console.log('The largest number is:', num1);</h5>
+<h5>}</h5>
+<h5>else if (num2 > num3){</h5>
+    <h5>console.log('The largest number is:', num2);</h5>
+<h5>}</h5>
+<h5>else {</h5>
+    <h5>console.log('The largest number is:', num3);</h5>
+<h5>}</h5>
+<h5>// Output: The largest number is: 79</h5>
+
+<br>
+<h2>// Using Nested 'if-else' Conditional</h2>
+<h5>var num1 = 13;</h5>
+<h5>var num2 = 79;</h5>
+<h5>var num3 = 45;</h5>
+
+<br>
+<h5>if (num1 > num2){</h5>
+    <h5>&nbsp;&nbsp;if (num1 > num3){</h5>
+        <h5>&nbsp;&nbsp;&nbsp;console.log(num1,'num1: largest');</h5>
+    <h5>&nbsp;&nbsp;}</h5>
+    <h5>&nbsp;&nbsp;else {</h5>
+        <h5>&nbsp;&nbsp;&nbsp;console.log(num3, 'num3: largest');</h5>
+    <h5>&nbsp;&nbsp;}</h5>
+<h5>}</h5>
+<h5>else if (num2 > num3){</h5>
+    <h5>&nbsp;&nbsp;console.log(num2, 'num2: largest');</h5>
+<h5>}</h5>
+<h5>else {</h5>
+    <h5>&nbsp;&nbsp;console.log(num3, 'num3: largest');</h5>
+<h5>}</h5>
+<h5>// Output: 79 num2: largest</h5>
+
+<br>
+<h2>// Here's a breakdown of how it works:</h2>
+
+<h3>// Three variables num1, num2, and num3 are initialized with values 13, 79, and 45 respectively.</h3>
+
+<h3>// The first 'if' statement checks if num1 is greater than num2. If it is, it enters into another nested 'if' statement to check if num1 is also greater than num3. If it is, it prints num1 as the largest number. If not, it prints num3 as the largest number.</h3>
+
+<h3>// If num1 is not greater than num2, it goes to the 'else if' condition, which checks if num2 is greater than num3. If it is, it prints num2 as the largest number.</h3>
+
+<h3>// If neither of the above conditions is true, it means num3 is the largest number, so it goes to the 'else' block and prints num3 as the largest number.</h3>
+
+<h2>// Let's analyze the scenario:</h2>
+
+<h3>// If num1 is the largest number, it will print num1: largest.</h3>
+<h3>// If num2 is the largest number and num1 is not, it will print num2: largest.</h3>
+<h3>// If neither num1 nor num2 is the largest, it implies that num3 is the largest, and it will print num3: largest.</h3>
+<h3>// In this specific case, num2 (79) is the largest number, so the output would be:</h3>
+
+//* ------------------------------------------------------------------------------------------------------------------ *//
+<h1>//* Practice Problem 4 *//</h1>
+<h2>// You are given a triangle with the sides 9, 8, 9. Write a program to check whether a triangle is Isosceles or not using if-else.</h2>
+<h2>// Isosceles => two sides are equal</h2>
+
+<br>
+<h5>var firstSideOfTriangle = 9;</h5>
+<h5>var secondSideOfTriangle = 8;</h5>
+<h5>var thirdSideOfTriangle = 9;</h5>
+<h5>if ((firstSideOfTriangle == secondSideOfTriangle) || (firstSideOfTriangle == thirdSideOfTriangle) || (secondSideOfTriangle || thirdSideOfTriangle)) {</h5>
+    <h5>&nbsp;&nbsp;console.log('The Triangle is Isosceles');</h5>
+<h5>}</h5>
+<h5>else {</h5> 
+    <h5>&nbsp;&nbsp;console.log('The Triangle is not Isosceles');</h5>
+<h5>}</h5>
+<h5>// Output: The Triangle is Isosceles</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
