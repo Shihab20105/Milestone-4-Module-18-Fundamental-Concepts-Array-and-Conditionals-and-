@@ -6,7 +6,7 @@ Isosceles => two sides are equal */
 var firstSideOfTriangle = 9;
 var secondSideOfTriangle = 8;
 var thirdSideOfTriangle = 9;
-if ((firstSideOfTriangle == secondSideOfTriangle) || (firstSideOfTriangle == thirdSideOfTriangle) || (secondSideOfTriangle || thirdSideOfTriangle)) {
+if ((firstSideOfTriangle == secondSideOfTriangle) || (firstSideOfTriangle == thirdSideOfTriangle) || (secondSideOfTriangle == thirdSideOfTriangle)) {
     console.log('The Triangle is Isosceles');
 }
 else { 
