@@ -1,15 +1,17 @@
 var destinations = ['sylhet', 'coxsbazar', 'nepal', 'bali', 'thailand'];
 
-// console.log(destinations[2]);
+console.log(destinations[2]);
 destinations[2] = 'singapore';
 var index = destinations.indexOf('bali');
 
 destinations.push('bhutan');
 destinations.pop();
 
-// Conditionals 
-// <, >, ==, !=, <=, >=
-// &&, ||
+/* Conditionals 
+<, >, ==, !=, <=, >=
+&&, || */
+
+
 if (destinations[1] === 'sylhet'){
 
 }
