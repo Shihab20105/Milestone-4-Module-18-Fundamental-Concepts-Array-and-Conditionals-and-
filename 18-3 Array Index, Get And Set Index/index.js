@@ -1,12 +1,16 @@
 /*                          Index */
 
-var numbers = [45, 68, 78, 56, 89, 98];
-
-/* Index ( [45, 68, 78, 56, 89, 98]; )
-            0    1   2   3   4   5 */
-
+/* Array Structure:
+Array: ( [45, 68, 78, 56, 89, 98]; )
+Index:     0    1   2   3   4   5 
+Elements: 45, 68, 78, 56, 89, 98
+Array Length: 6
+First Index: 0
+Last Index: 5
+*/
 
 /* 1. Get element value by index: */
+var numbers = [45, 68, 78, 56, 89, 98];
 console.log(numbers);
 /* Output:
 [ 45, 68, 78, 56, 89, 98 ] */
