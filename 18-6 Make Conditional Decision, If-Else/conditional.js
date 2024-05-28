@@ -1,3 +1,5 @@
+/*                          Conditional */
+
 var iphonePrice = 79000;
 // var myBudget = 9500;
 var myBudget = 95000;
@@ -16,6 +18,9 @@ var myBudget = 95000;
 if (iphonePrice < myBudget) {
     console.log('then i will buy the phone');
 }
+/* Output: 
+then i will buy the phone */
+
 
 var chickenPrice = 500;
 var myMoney = 50;
@@ -38,3 +43,5 @@ if (chickenPrice < myMoney) {
 else {
     console.log('i will have potato');
 }
+/* Output:
+i will have potato */
