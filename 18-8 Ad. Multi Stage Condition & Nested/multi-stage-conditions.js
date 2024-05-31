@@ -1,3 +1,5 @@
+/*                          Multi Stage Condition */
+
 // var money = 100;
 // var money = 10;
 // var money = 30;
@@ -19,3 +21,13 @@ else if (toastBiscuit < money) {
 else {
     console.log('tea will be better option');
 }
+/* Output:
+then i will have butter croissant */
+/* Output:
+tea will be better option */
+/* Output:
+then i will have toast biscuit */
+/* Output:
+then i will have butter bread */
+/* Output:
+then i will have butter croissant */
